@@ -43,6 +43,7 @@
       .product-list li a .product-image {
         width: 100%; }
       .product-list li a .product-name {
+        padding: 10px;
         font-weight: bold;
         width: 100%;
         text-align: center;
@@ -55,6 +56,23 @@
         width: 100%;
         text-align: center;
         color: #9d9d9d; }
+
+.item-container {
+  text-align: left; }
+  .item-container .item-image {
+    height: 400px; }
+  .item-container .item-name {
+    padding: 10px 0;
+    font-weight: bold;
+    font-size: 20px; }
+  .item-container .item-description {
+    color: #9d9d9d;
+    padding: 10px 0; }
+
+.feedback-container {
+  width: 50%; }
+  .feedback-container .feedback-item {
+    width: 100%; }
 
 footer {
   padding: 20px; }

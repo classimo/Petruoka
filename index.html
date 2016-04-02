@@ -12,7 +12,7 @@
 
         <!-- Latest compiled and minified CSS -->
         <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css" integrity="sha384-1q8mTJOASx8j1Au+a5WDVnPi2lkFfwwEAa8hDDdjZlpLegxhjVME1fgjWPGmkzs7" crossorigin="anonymous">
-
+        <link rel="stylesheet" type="text/css" href="https://cdn.jsdelivr.net/jquery.slick/1.5.9/slick.css"/>
         <!-- Custom styles for this template -->
         <link href="css/shop-template.css" rel="stylesheet">
 
@@ -33,7 +33,7 @@
                 </div>
                 <div id="navbar" class="collapse navbar-collapse">
                     <ul class="nav navbar-nav">
-                        <li class="active"><a href="#">Home</a></li>
+                        <li><a href="#">Home</a></li>
                         <li><a href="#about">About</a></li>
                         <li><a href="#contact">Contact</a></li>
                     </ul>
@@ -50,13 +50,25 @@
                     </ul>
                 </div>
                 <div class="col-xs-6 col-sm-6 col-md-8 col-lg-8">
-                    
+                    <div class="item-container">
+                        <div class="item-name">AEG HG654421UM Side Wok Burner Integrated 60cm Gas Hob - Stainless Steel</div>
+                        <img class="item-image" src="24904c34-0175-53c0-8b9c-8da1c36dd124.jpg" />
+                        <div class="item-description">AEG HG654421UM 60cm UltraFlat stainless steel gas hob, with four burners and cast iron pan supports.</div>
+                    </div>
+                    <div class="feedback-container">
+                        <div class="feedback-item">your content1</div>
+                        <div class="feedback-item">your content2</div>
+                        <div class="feedback-item">your content3</div>
+                        <div class="feedback-item">your content4</div>
+                        <div class="feedback-item">your content5</div>
+                        <div class="feedback-item">your content6</div>
+                    </div>
                 </div>
                 <div class="col-xs-3 col-sm-3 col-md-2 col-lg-2">
                     <ul class="nav nav-sidebar product-list">
                         <li>
                             <a href="#">
-                                <img class="product-image" src="24904c34-0175-53c0-8b9c-8da1c36dd124.jpg" style="opacity: 1;">
+                                <img class="product-image" src="24904c34-0175-53c0-8b9c-8da1c36dd124.jpg">
                                 <div class="product-name">AEG HG654421UM Side Wok Burner Integrated 60cm Gas Hob - Stainless Steel</div>
                                 <div class="product-price">£354.50</div>
                                 <!-- <div class="product-description">AEG HG654421UM 60cm UltraFlat stainless steel gas hob, with four burners and cast iron pan supports.</div> -->
@@ -64,7 +76,7 @@
                         </li>
                         <li>
                             <a href="#">
-                                <img class="product-image" src="24904c34-0175-53c0-8b9c-8da1c36dd124.jpg" style="opacity: 1;">
+                                <img class="product-image" src="24904c34-0175-53c0-8b9c-8da1c36dd124.jpg">
                                 <div class="product-name">AEG HG654421UM Side Wok Burner Integrated 60cm Gas Hob - Stainless Steel</div>
                                 <div class="product-price">£354.50</div>
                                 <!-- <div class="product-description">AEG HG654421UM 60cm UltraFlat stainless steel gas hob, with four burners and cast iron pan supports.</div> -->
@@ -72,7 +84,7 @@
                         </li>
                         <li>
                             <a href="#">
-                                <img class="product-image" src="24904c34-0175-53c0-8b9c-8da1c36dd124.jpg" style="opacity: 1;">
+                                <img class="product-image" src="24904c34-0175-53c0-8b9c-8da1c36dd124.jpg">
                                 <div class="product-name">AEG HG654421UM Side Wok Burner Integrated 60cm Gas Hob - Stainless Steel</div>
                                 <div class="product-price">£354.50</div>
                                 <!-- <div class="product-description">AEG HG654421UM 60cm UltraFlat stainless steel gas hob, with four burners and cast iron pan supports.</div> -->
@@ -100,5 +112,19 @@
         <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>
         <!-- Latest compiled and minified JavaScript -->
         <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/js/bootstrap.min.js" integrity="sha384-0mSbJDEHialfmuBBQP6A4Qrprq5OVfW37PRR3j5ELqxss1yVqOtnepnHVP9aJ7xS" crossorigin="anonymous"></script>
+        <script type="text/javascript" src="https://code.jquery.com/jquery-1.11.0.min.js"></script>
+        <script type="text/javascript" src="https://code.jquery.com/jquery-migrate-1.2.1.min.js"></script>
+        <script type="text/javascript" src="https://cdn.jsdelivr.net/jquery.slick/1.5.9/slick.min.js"></script>
+        <script type="text/javascript">
+            $(document).ready(function(){
+                $('.feedback-container').slick({
+                    slidesToShow: 2,
+                    slidesToScroll: 1,
+                    autoplay: true,
+                    autoplaySpeed: 2000,
+                    arrows: false
+                });
+            });
+        </script>
     </body>
 </html>
